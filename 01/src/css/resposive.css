@@ -1,0 +1,513 @@
+@media screen and (max-width: 1200px) {
+    header {
+    max-width: 1200px;
+    margin-right: 10px;
+    justify-content: space-between;
+    }
+
+    .section-tools-area {
+        max-width: 1200px;
+    }
+
+    .tools-details-1st-line {
+        flex-wrap: wrap;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    .tools-area-letter {
+        max-width: 305px;
+    }
+
+    .software-\&-integration {
+        column-gap: 15px;
+        margin-top: 40px;
+    }
+
+    .coustomer-fasilities-infomation {
+        margin-left: 10px;
+    }
+
+    .coustomer-fasilities-pink-area {
+        margin-top: 40px;
+    }
+
+    .coustomer-fasilities-header {
+        font-size: 28px;
+        line-height: 40px;
+    }
+
+    .coustomer-fasilities-para-area {
+        margin-top: 16px;
+    }
+
+    .coustomer-fasilities-para {
+        text-align: justify;
+    }
+
+    .easy-solution-dot-para-point {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .easy-solution-dotted-point {
+        margin-top: 0px;
+        column-gap: 0;
+        justify-content: start;
+    }
+
+    .coustomer-fasilities-clint-img {
+        margin-left: 60px;
+    }
+
+    .company-history-wrapper {
+        margin-top: -40px;
+    }
+
+    section.company-history {
+        max-width: 1200px;
+        margin: 0px auto 0 auto;
+    }
+
+    .company-history-dashboard-wrapper {
+        column-gap: 20px;
+        padding: 20px 20px 0;
+        bottom: -100px;
+    }
+
+    .company-history-dashboard-details-wrapper {
+        padding: 30px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .creative-strategy-para p {
+        text-align: justify;
+    }
+
+    .creative-strategy-bullet-pointer-num {
+        left: 0px;
+    }
+
+    .any-question {
+        max-width: 1200px;
+        margin: 150px auto 0;
+    }
+}
+
+@media screen and (max-width: 992px) {
+
+    .section-tools-area {
+        max-width: 929px;
+    }
+
+    .tools-area-header {
+        max-width: 700px;
+        font-size: 40px;
+    }
+
+    .tools-area-letter {
+        max-width: 219px;
+    }
+
+    .tools-header.tool-header h3 {
+        font-size: 20px;
+    }
+
+    .easy-solution-area {
+        max-width: 992px;
+        display: block;
+        text-align: center;
+    }
+
+    .text-area-wrapper {
+        margin: 50px auto 0;
+    }
+
+    .easy-solution-header {
+        margin: 15px auto 0 auto;
+    }
+
+    .easy-solution-para .easy-solution-paragraph {
+        margin: 26px auto 0 auto;
+    }
+
+    .coustomer-fasilities-clint-img img {
+        max-width: 500px;
+    }
+
+    .coustomer-fasilities-pink-area {
+        margin-top: 0;
+    }
+
+    .coustomer-fasilities-clint-img {
+        margin-left: 20px;
+    }
+
+    .coustomer-fasilities-counting-coustomer img, .coustomer-fasilities-time-saver-note img {
+        width: 60%;
+        margin-right: 0;
+        position: relative;
+        top: -80px;
+        left: -18px;
+        margin-top: 71px;
+    }
+
+    section.company-history{
+        max-width: 992px;
+    }
+
+    .company-history-icons {
+        column-gap: 45px;
+    }
+
+    .company-history-dashboard-wrapper {
+        column-gap: 15px;
+        padding: 50px 170px 30px;
+        bottom: 0;
+        flex-wrap: wrap;
+    }
+
+    .company-history-dashboard-details-wrapper {
+        margin-top: 36px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .creative-strategy-wrapper {
+        display: block;
+    }
+
+    .creative-strategy-double-img-wrapper {
+        justify-content: center;
+    }
+
+    .creative-strategy-3rd-img img {
+        display: flex;
+        margin: 25px auto 0 auto;
+    }
+
+    .creative-strategy-pink-text p {
+        text-align: center;
+    }
+
+    .creative-strategy-heading-text h3 {
+        max-width: 500px;
+        text-align: center;
+        margin: 15px auto 0 auto;
+    }
+
+    .creative-strategy-para p {
+        text-align: center;
+        margin: 25px auto 0 auto;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    .creative-strategy-text-wrapper .easy-solution-dotted-point {
+        margin-left: 15px;
+    }
+
+    .creative-strategy-bullet-point-wrapper {
+        max-width: 320px;
+    }
+
+    .creative-strategy-bullet-all-point-wrapper {
+        column-gap: 0;
+    }
+
+    .any-question-wrapper {
+        display: block;
+    }
+
+    .any-question-img-wrap {
+        text-align: center;
+    }
+
+    .any-question-pink-wrapper {
+        text-align: center;
+    }
+
+    .any-question-header h3 {
+        margin: 0 auto;
+    }
+
+    .any-question-contactUs-wrapper {
+        display: flex;
+        align-items: center;
+        text-align: center;
+        flex-direction: column;
+    }
+
+    .any-question-location {
+        margin-top: 0;
+    }
+
+    .any-question-location.pin {
+        position: relative;
+        left: 123px;
+        top: -6px;
+    }
+
+    .any-question-location.telephon {
+        position: relative;
+        left: 50px;
+        top: -6px;
+    }
+
+    .any-question-location.mail {
+        position: relative;
+        left: 60px;
+        top: -2px;
+    }
+
+    .any-question-address-wrapper {
+        margin-top: 65px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+
+    .section-tools-area {
+        max-width: 767px;
+    }
+
+    .tools-area-header {
+        max-width: 550px;
+        font-size: 36px;
+    }
+
+    .software-\&-integration {
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        margin-top: 40px;
+        row-gap: 15px;
+    }
+
+    .tools-area-letter {
+        max-width: 223px;
+    }
+
+    .tools-header h3 {
+        font-size: 21px;
+        font-weight: 500;
+        line-height: 24px;
+    }
+
+    .tools-details {
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 26px;
+        margin: 6px auto 0;
+    }
+
+    .coustomer-fasilities-clint-img img {
+        max-width: 300px;
+        position: relative;
+        top: 65px;
+    }
+
+    .coustomer-fasilities-counting-coustomer img, .coustomer-fasilities-time-saver-note img {
+        width: 45%;
+        top: 20px;
+        left: -10px;
+        margin-top: 20px;
+        z-index: 1;
+    }
+
+    .easy-solution-dot-para {
+        width: 215px;
+    }
+
+    .company-history-wrapper {
+        margin-top: 20px;
+    }
+    
+    .company-history-icons {
+        padding-right: 0;
+        justify-content: center;
+        row-gap: 24px;
+        column-gap: 0px;
+        text-align: center;
+    }
+
+    .company-history-icons div img {
+        width: 70%;
+    }
+
+    .company-history-dashboard-wrapper {
+        padding: 50px 65px 30px;
+    }
+
+    .company-history-dashboard-details-wrapper {
+        margin-top: 36px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .creative-strategy-text-wrapper .easy-solution-dotted-point {
+        margin-left: 0;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .creative-strategy-bullet-all-point-wrapper {
+        justify-content: center;
+    }
+
+    .creative-strategy-bullet-point-wrapper {
+        margin-top: 20px;
+        text-align: center;
+    }
+
+    .creative-strategy-bullet-pointer-num {
+        position: relative;
+        left: 75px;
+    }
+
+    .creative-strategy-bullet-pointer-num {
+        left: 80px;
+    }
+}
+
+@media screen and (max-width: 575px) {
+
+    .section-tools-area {
+        max-width: 575px;
+    }
+
+    .tools-area-header {
+        max-width: 379px;
+        font-size: 24px;
+        line-height: 34px;
+        margin: 12px auto 0;
+    }
+
+    .tools-details-1st-line {
+        justify-content: center;
+        align-items: center;
+    }
+
+    .tools-header h3, .tools-header.tool-header h3 {
+        font-size: 18px;
+        text-align: center;
+        margin-top: 20px;
+    }
+
+    .text-area-wrapper {
+        margin: 100px auto 0;
+    }
+
+    .easy-solution-header .easy-solution-header-text {
+        max-width: 355px;
+        margin: 0 auto;
+        font-size: 26px;
+        font-weight: 500;
+        line-height: 42px;
+    }
+
+    .easy-solution-para .easy-solution-paragraph {
+        max-width: 504px;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 28px;
+        margin: 20px auto 0 auto;
+    }
+
+    .easy-solution-dot-para p {
+        max-width: 160px;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 28px;
+        text-align: left;
+    }
+
+    .easy-solution-dotted-point {
+        margin-top: 0px;
+        column-gap: 0;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .coustomer-fasilities-wrapper {
+        max-width: 575px;
+        margin: 130px auto 0 auto;
+        display: block;
+    }
+
+    .coustomer-fasilities-pink-area .coustomer-fasilities-pink, .coustomer-fasilities-header {
+        text-align: center;
+    }
+
+    .coustomer-fasilities-clint-img img {
+        max-width: 100%;
+    }
+
+    .coustomer-fasilities-clint-img {
+        margin-left: 0;
+        margin-top: 50px;
+    }
+
+    .coustomer-fasilities-counting-coustomer img, .coustomer-fasilities-time-saver-note img {
+        width: 70%;
+        top: -30px;
+        left: -20px;
+        margin-top: 20px;
+    }
+
+    .coustomer-fasilities-header {
+        max-width: 365px;
+        font-size: 26px;
+        line-height: 40px;
+        font-weight: 500;
+        margin: 0 auto;
+    }
+
+    .company-histoy-all-iformarion-wrapper {
+        display: block;
+        padding: 40px 0 0 0;
+        text-align: center;
+    }
+
+    .company-history-heading-area {
+        max-width: 550px;
+        margin: 0 auto;
+    }
+
+    .company-history-para {
+        max-width: 380px;
+        margin: 20px auto 0 auto;
+    }
+
+    .company-history-icons {
+        margin-top: 60px;
+        justify-content: space-evenly;
+    }
+
+    .company-history-dashboard-wrapper {
+        padding: 50px 10px 30px;
+    }
+
+    .company-history-dashboard-details-wrapper {
+        margin-top: 30px;
+    }
+
+    .company-history-dashboard-details-wrapper {
+        width: 270px;
+        padding: 25px;
+        text-align: justify;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .creative-strategy-bullet-point-header-and-para p {
+        text-align: justify;
+    }
+
+    .creative-strategy-bullet-point-wrapper {
+        margin-top: 60px;
+    }
+}
