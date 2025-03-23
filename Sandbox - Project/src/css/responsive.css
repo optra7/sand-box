@@ -1,0 +1,2428 @@
+/*===============================================================   Responsive For Laptop ============================================================*/
+/*===============================================================   Responsive For Laptop ============================================================*/
+
+
+@media only screen and (max-width: 1200px){
+
+
+body{
+  width: 1200px;
+
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+  color: #191720;
+  margin: 0 auto;
+}
+    
+    
+/*===============================================================   Header Design Start     ================================================================*/
+header {
+  max-width: 1100px;
+  margin: 62px auto 0;
+}
+
+
+
+
+header .nevigation .nav-links{
+  column-gap: 30px;
+}
+
+
+
+
+
+
+/* User Nav Design    */
+header .nevigation .nav-links li button {  
+    width: 104.86px;
+    height: 48.89px;
+    font-size: 17px;
+    font-weight: 600px;
+    line-height: 28px;
+    text-align: center;
+    border: none;
+    border-radius: 100px;
+    color: #FFFFFF;
+    background-color: #5EB9F0;
+    margin: 0px 0px 0px 62px;
+}
+
+header .nevigation .nav-links li button:hover {
+    transform: scale(1.1);
+}
+  
+
+
+
+
+
+.hamburger{
+  display: none;
+  cursor: pointer;
+  width: 34px;
+}
+
+.hamburger .bar{
+  flex-basis: 100%;
+  height: 4px;
+  background-color: #111;
+  margin: 3px;
+}
+
+/*==========================================================     Header Design End   =====================================================================*/
+ 
+
+
+
+
+
+
+
+
+
+
+
+/*==========================================================    Main Section Start    =====================================================================*/
+/*==========================================================    Main Section Start    =====================================================================*/
+
+
+/*==========================================================     Section Hero Design Start   =====================================================================*/
+
+.section-hero-blog .hero-area{
+  width: 1200px;
+  background-color: #FEFEFE;
+  margin: 0 auto 100px;
+}
+
+
+/* Inner */
+.section-hero-blog .hero-area .inner-content {
+  width: 1100px;
+  margin: 0 auto;
+  display: flex;
+  column-gap: 42px;
+  background-color: #FEFEFE;
+
+}
+
+
+/*Block-Left*/ 
+
+
+/*Block-Right*/
+.section-hero-blog .hero-area .block-right {
+  width: 620px;
+  padding: 90px 90px 0px 0px;
+}
+
+.section-hero-blog .hero-area .block-right img{
+  width: 600px;
+  height: 435px;
+
+}
+
+
+
+/* Outer */
+.section-hero-blog .hero-area .outer-content{
+  width: 1100px;
+  margin: 94px auto 0px;
+}
+
+
+
+.section-hero-blog .hero-area .outer-content .outer-img img{
+width: 123px;
+height: 33px;
+}
+/*==========================================================     Section Hero Design End   =====================================================================*/ 
+
+
+
+
+
+
+
+
+/*==========================================================     Section Wave Design End   =====================================================================*/
+.section-wave .wave{
+width: 1200px;
+height: 82px;
+margin: 0 auto;  
+}
+
+.section-wave .wave img{
+width: 1200px;
+height: 134.72px;
+
+}
+/*==========================================================     Section Wave Design End   =====================================================================*/ 
+
+
+
+
+
+
+
+
+
+/*==========================================================     Section service Design Start   =====================================================================*/ 
+.section-service .service-area{
+width: 1200px;
+
+margin: 0 auto;
+background: linear-gradient(180deg, #F0F8FE 0%, rgba(255, 255, 255, 0) 100%);
+}
+
+
+.section-service .service-area .service-box{
+width: 1150px;
+margin: 0 auto;
+background: linear-gradient(180deg, #F0F8FE 0%, rgba(255, 255, 255, 0) 100%);
+}
+
+
+
+
+
+/* Service- cart */
+.section-service .service-area .service-box .service-cart{
+width: 1100px;
+display: flex;
+justify-content: unset;
+column-gap: 45px;
+margin: 50px auto 0px;
+}
+
+
+
+/*==========================================================     Section service Design End   =====================================================================*/ 
+
+
+
+
+
+
+
+
+/*==========================================================     Section Strategy Design End   =====================================================================*/
+.section-strategy .strategy{
+width: 1200px;
+column-gap: 0px;
+margin: 150px 0;
+}
+
+/* Block Left */
+.section-strategy .strategy .block-left{
+width: 550px;
+margin-top: 61px;
+}
+
+
+.section-strategy .strategy .block-left h2{
+width: 514px;
+font-size: 42px;
+font-weight: 600;
+line-height: 45px;
+text-align: left;  
+margin-top: 15px;
+}
+
+
+
+
+
+/* Block Right */
+.section-strategy .strategy .block-right{
+width: 550px;
+height: 428.67px;
+margin-top: 50px;  
+}
+
+.section-strategy .strategy .block-right .strategy-cart{
+width: 528px;
+}
+
+
+
+
+
+
+/*==========================================================     Section Strategy Design End   =====================================================================*/ 
+
+
+
+
+
+
+
+
+/*==========================================================     Section Blog-Solution Design End   =====================================================================*/
+.section-blog-solution .blog-solution{
+width: 1100px;
+
+background: linear-gradient(0deg, #F0F8FE 0%, rgba(255, 255, 255, 0) 100%);
+margin: 0 auto;
+display: flex;
+justify-content: center;
+column-gap: 35px;
+}
+
+
+.section-blog-solution .blog-solution .block-left img{
+width: 550px;
+height: 400px;
+}
+
+.section-blog-solution .blog-solution .block-right{
+width: 550px;
+margin-top: 0;
+margin-bottom: 75px;
+}
+
+
+/*==========================================================     Section Blog-Solution Design End   =====================================================================*/ 
+
+
+
+
+
+
+
+/*==========================================================     Section Wave Design End   =====================================================================*/
+.section-wave-two .wave-two{
+width: 1200px;
+height: 82px;
+margin: 0 auto;  
+}
+
+.section-wave-two .wave-two img{
+width: 1200px;
+height: 134.72px;
+margin: 0 auto;
+margin-top: -50px;
+position: relative;
+}
+/*==========================================================     Section Wave Design End   =====================================================================*/ 
+
+
+
+
+
+
+
+
+/*==========================================================     Section Company Facts Start   =====================================================================*/
+.section-company-facts .company-facts-box{
+width: 1200px;
+background-color: #FFFFFF;
+margin: 0 auto;
+}
+
+
+.section-company-facts .company-facts-box .company-facts{
+width: 1100px;
+margin: 0 auto;
+}
+
+
+.section-company-facts .company-facts-box .company-facts .title-statistics{
+  display: flex;
+  column-gap: 104px;
+  }
+
+
+.section-company-facts .company-facts-box .company-facts .title h2{
+width: 352px;
+font-size: 40px;
+line-height: 45px;
+}
+
+
+.section-company-facts .company-facts-box .company-facts .title-statistics .statistics-part{
+  width: 152px;
+}
+
+
+.section-company-facts .company-facts-box .company-facts .title-statistics .statistics-part img{
+margin: 100px 0px 0px 45px;
+}
+
+
+.section-company-facts .company-facts-box .company-facts .title-statistics .statistics-part p{
+width: 152px;
+}
+
+
+
+/* Employee */
+
+.section-company-facts .company-facts-box .company-facts .employee{
+width: 1100px;
+column-gap:18px;
+}
+
+.section-company-facts .company-facts-box .company-facts .employee .names{
+width: 260px;
+
+}
+
+
+
+
+.section-company-facts .company-facts-box .company-facts .employee .names .names-text h5{
+width: 180px;
+}
+
+
+
+
+.section-company-facts .company-facts-box .company-facts .employee .names .names-text .dop{
+line-height: 22px;
+}
+/*==========================================================     Section Company Facts End   =====================================================================*/ 
+
+
+
+
+
+
+/*==========================================================     Section Latest Project Start   =====================================================================*/ 
+
+.section-projects .project-box{
+width: 1200px;
+
+background-color: #FFFFFF;  
+margin: 0 auto;
+}
+
+
+.section-projects .project-box .latest-projects{
+width: 1100px;
+
+margin: 0px auto 0px;
+background-color: #FFFFFF;
+}
+
+
+
+
+.section-projects .project-box .latest-projects .latest-projects-titles .sub-title{
+width: 860px;
+}
+
+
+
+.section-projects .project-box .latest-projects .latest-projects-list{
+width: 1100px;
+margin: 50px auto 0px;
+display: flex;
+justify-content: space-between;
+overflow: hidden;
+column-gap: 92px;
+}
+
+.section-projects .project-box .latest-projects .latest-projects-list .latest-projects-blog{
+width: 500px;
+
+}
+
+.section-projects .project-box .latest-projects .latest-projects-list .latest-projects-blog img{
+width: 500px;
+height: 326px;
+}
+
+/*==========================================================     Section Latest project End   =====================================================================*/ 
+
+
+
+
+
+
+
+/*==========================================================     Section Wave Design Start   =====================================================================*/
+.section-wave-three .wave-three{
+  width: 1200px;
+  height: 82px;
+  margin: 0 auto;  
+  }
+  
+  .section-wave-three .wave-three img{
+  width: 1200px;
+  height: 134.72px;
+  margin: 0 auto;
+  margin-top: 0px;
+  position: relative;
+  }
+  /*==========================================================     Section Wave Design End   =====================================================================*/ 
+
+
+
+
+
+
+
+
+
+
+
+
+/*==========================================================     Section Customers Start   =====================================================================*/ 
+.section-customers .customer-area{
+width: 1200px;
+margin: 0 auto;
+background: linear-gradient(180deg, #F0F8FE 0%, rgba(255, 255, 255, 0) 100%);
+}
+
+.section-customers .customer-area .customer{
+width: 1100px;
+margin: 0 auto;
+background: linear-gradient(180deg, #F0F8FE 0%, rgba(255, 255, 255, 0) 100%);
+}
+
+
+
+.section-customers .customer-area .customer .title p{
+margin: 50px auto 0px;
+padding-top: 15px;
+}
+
+.section-customers .customer-area .customer .title h2{
+width: 675px;
+font-size: 40px;
+line-height: 40px;
+}
+
+
+
+.section-customers .customer-area .customer .customer-cart-box{
+width: 1100px;
+display: flex;
+justify-content: unset;
+column-gap: 25px;
+}
+
+.section-customers .customer-area .customer .customer-cart-box .customer-cart{
+width: 350px;
+height: 390px;
+}
+
+.section-customers .customer-area .customer .customer-cart-box .customer-cart .pera img{
+width: 26px;
+margin: 20px 0px 0px 20px;
+}
+.section-customers .customer-area .customer .customer-cart-box .customer-cart .pera p{
+width: 310px;
+font-size: 16px;
+font-weight: 500;
+margin: 20px 0px 0px 20px;
+}
+
+
+.section-customers .customer-area .customer .customer-cart-box .customer-cart .names{
+display: flex;
+column-gap: 15px;
+margin: 15px 0px 0px 20px;
+}
+
+
+.section-customers .customer-area .customer .customer-cart-box .customer-cart .names .name-text h5{
+width:150px;
+}
+
+
+/*==========================================================     Section Customers End   =====================================================================*/ 
+
+
+
+
+
+
+
+/*==========================================================     Section FAQ Start   =====================================================================*/ 
+.section-faq .faq-area{
+width: 1200px;
+
+background-color: #FEFEFE;
+margin: 0 auto;
+}
+
+.section-faq .faq-area .faq{
+width: 1100px;
+height: 500px;
+background-color: #FEFEFE;
+margin: 50px auto 0px;
+display: flex;
+justify-content: space-between;
+column-gap: 55px;
+}
+
+
+.section-faq .faq-area .faq .block-left{
+width: 500px;
+
+}
+
+
+.section-faq .faq-area .faq .block-left .faqq{
+margin: 1px 0px 0px 0px;
+}
+
+
+.section-faq .faq-area .faq .block-left h2{
+width: 550px;
+font-size: 38px;
+line-height: 40px;
+margin: 20px 0px 0px 0px;
+}
+
+
+
+.section-faq .faq-area .faq .block-left .faqq-2{
+width: 540px;
+font-size: 16px;
+font-weight: 500;
+line-height: 20px;
+margin: 24px 0px 0px 0px;
+}
+
+
+
+/* button    */
+.section-faq .faq-area .faq .block-left button{
+margin: 34px 0px 0px 0px;
+}
+ 
+ 
+
+
+
+
+/* block Right */
+
+.section-faq .faq-area .faq .block-right{
+width: 500px;
+}
+
+.section-faq .faq-area .faq .block-right .arrow-cart{
+width: 500px;
+}
+
+
+/*==========================================================     Section FAQ End   =====================================================================*/ 
+
+
+/*==========================================================    Main Section End    =====================================================================*/
+/*==========================================================    Main Section End    =====================================================================*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*==========================================================     Footer Design Start   =====================================================================*/
+
+
+.section-footer-project .footer-area{
+  width: 1200px;
+}
+  
+.section-footer-project .footer-area .footer-text-button{
+  width: 1100px;
+  column-gap: 238px;
+  padding-top: 45px;
+}
+
+.section-footer-project .footer-area .footer-text-button .footer-text{
+  font-size: 36px;
+  font-weight: 400;
+  line-height: 46px;
+  text-align: center;
+}
+
+
+
+/* button    */
+.section-footer-project .footer-area .footer-text-button button{
+  font-weight: 500;
+ }
+  
+
+
+/* Footer */
+
+.section-footer-project .footer-area .footer-box{
+  width: 1100px;
+  display: flex;
+  column-gap: 122px;
+}
+
+
+.section-footer-project .footer-area .footer-box .news .footer-nav-title{
+  width: 150px;
+}
+
+.section-footer-project .footer-area .footer-box .news .email-adress button {
+  padding: 11.5px 23px 16px 24px;
+}
+  
+  
+/*==========================================================     Footer Design End   =====================================================================*/
+
+
+
+
+    
+}    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*===============================================================   Responsive For Tab ============================================================*/
+/*===============================================================   Responsive For Tab ============================================================*/
+
+@media only screen and (max-width: 768px){
+
+
+
+body{
+  width: 768px;
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+  color: #191720;
+  margin: 0 auto;
+}
+  
+  
+  
+  
+  
+  
+/*===============================================================   Header Design  Start   ================================================================*/
+header {
+  max-width: 700px;
+  margin: 62px auto 0;
+}
+
+
+header .nevigation{
+  position: relative;
+  flex-wrap: wrap;
+  
+}
+
+.hamburger{
+  display: flex;
+  flex-wrap: wrap;
+  height: 45px;
+  width: 45px;
+  margin-top: 5px;
+  margin-left: 150px;
+}
+
+
+header .nevigation .nav-links{
+  display: flex;
+  column-gap: 100px;
+  position: absolute;
+  top: 60px;
+  width: 100%;
+  flex-wrap: wrap;
+  display: none;
+  background-color: #7d7d81;
+  border-radius: 15px;
+  padding: 20px 50px 0px 50px;
+}
+
+
+header .nevigation .nav-links  li{
+  margin: 20px 0px;
+}
+
+
+
+
+
+
+header .nevigation .nav-links li button {  
+  width: 104.86px;
+  height: 48.89px;
+  font-size: 17px;
+  font-weight: 500;
+  line-height: 28px;
+  text-align: center;
+  border: none;
+  border-radius: 100px;
+  color: #FFFFFF;
+  background-color: #5EB9F0;
+  margin: 0;
+}
+  
+header .nevigation .nav-links li button:hover {
+  transform: scale(1.1);
+}
+        
+/*===============================================================   Header Design  Start   ================================================================*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*==========================================================    Main Section Start    =====================================================================*/
+/*==========================================================    Main Section Start    =====================================================================*/
+
+
+/*==========================================================     Section Hero Design Start   =====================================================================*/
+
+.section-hero-blog .hero-area{
+  width: 768px;
+  background-color: #FEFEFE;
+  margin: 50px auto 0px;
+}
+
+
+/* Inner */
+.section-hero-blog .hero-area .inner-content {
+  width: 768px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+}
+
+
+/*Block-Left*/ 
+.section-hero-blog .hero-area .inner-content .block-left h1{
+  width: 695px;
+ text-align: center;
+  margin: 0px auto 0px;
+}
+
+
+.section-hero-blog .hero-area .inner-content .block-left p{
+  width: 520px;
+  margin: 27px auto 0px;
+}
+
+.section-hero-blog .hero-area .inner-content .block-left button{
+  margin: 39px 0px 0px 320px;
+}
+
+
+
+
+/*Block-Right*/
+.section-hero-blog .hero-area .block-right {
+  width: 600px;
+    height: 420px;
+  padding: 0;
+  margin: 60px auto 0px;
+}
+
+.section-hero-blog .hero-area .block-right img{
+  width: 600px;
+  height: 420px;
+}
+
+
+
+
+/* Outer */
+.section-hero-blog .hero-area .outer-content{
+  width: 768px;
+  margin: 40px auto 0px;
+}
+
+
+.section-hero-blog .hero-area .outer-content .outer-text p{
+width: 370px;
+margin: auto;
+}
+
+.section-hero-blog .hero-area .outer-content .outer-img{
+  width: 700px;
+display: flex;
+justify-content: space-evenly;
+row-gap: 20px;
+flex-wrap: wrap;
+column-gap: 30px;
+margin: 30px auto 0px;
+}
+
+.section-hero-blog .hero-area .outer-content .outer-img img{
+width: 150px;
+height: 30px;
+}
+/*==========================================================     Section Hero Design End   =====================================================================*/ 
+
+
+
+
+
+
+
+
+/*==========================================================     Section Wave Design End   =====================================================================*/
+.section-wave .wave{
+width: 768px;
+height: 82px;
+margin: 0 auto;  
+}
+
+.section-wave .wave img{
+width: 768px;
+height: 134.72px;
+margin: 0 auto;
+margin-top: 60px;
+position: relative;
+}
+/*==========================================================     Section Wave Design End   =====================================================================*/ 
+
+
+
+
+
+
+
+
+
+/*==========================================================     Section service Design Start   =====================================================================*/ 
+.section-service .service-area{
+width: 768px;
+
+margin: 110px auto;
+background: linear-gradient(180deg, #F0F8FE 0%, rgba(255, 255, 255, 0) 100%);
+}
+
+
+.section-service .service-area .service-box{
+width: 695px;
+
+margin: 0 auto;
+background: linear-gradient(180deg, #F0F8FE 0%, rgba(255, 255, 255, 0) 100%);
+}
+
+
+/* Title*/
+.section-service .service-box .service-title p{
+width: 111.53px;
+height: 19px;
+font-size: 16px;
+font-weight: 600;
+line-height: 21.6px;
+letter-spacing: 0.4000000059604645px;
+text-align: center;
+color: #5EB9F0;
+margin: 0 auto;  
+}
+
+.section-service .service-box .service-title h2{
+width: 665px;
+font-size: 40px;
+line-height: 45px;
+}
+
+
+
+
+/* Service- cart */
+.section-service .service-area .service-box .service-cart{
+width: 695px;
+display: flex;
+flex-direction: column;
+row-gap: 80px;
+}
+
+.section-service .service-area .service-box .service-cart .img-text-box .img-text-area{
+  width: 695px;
+}
+
+.section-service .service-area .service-box .service-cart .img-text-box .img-text-area img{
+width: 336.66px;
+margin: 0px 0px 0px 165px;
+}
+
+.section-service .service-area .service-box .service-cart .img-text-box .img-text-area h5{
+width: 180px;
+}
+
+.section-service .service-area .service-box .service-cart .img-text-box .img-text-area p{
+line-height: 22px;
+}
+
+
+.section-service .service-area .service-box .service-cart .img-text-box .learn-more-arrow{
+  width: 108px;
+margin: 18px auto 0px;
+}
+
+
+.section-service .service-area .service-box .service-cart .img-text-box .learn-more-arrow a{
+width: 87.76px;
+
+font-size: 17px;
+font-weight: 600;
+line-height: 28.9px;
+text-align: center; 
+text-decoration: none;
+color:#5EB9F0;
+margin: 0px;
+}
+
+.section-service .service-area .service-box .service-cart .img-text-box .learn-more-arrow img{
+width: 9px;
+height: 9px;
+}
+/*==========================================================     Section service Design End   =====================================================================*/ 
+
+
+
+
+
+
+
+
+/*==========================================================     Section Strategy Design End   =====================================================================*/
+.section-strategy .strategy{
+width: 768px;
+display: flex;
+justify-content: unset;
+flex-wrap: wrap;
+column-gap: 20px;
+margin: 0 auto;
+}
+
+/* Block Left */
+.section-strategy .strategy .block-left{
+width: 695px;
+margin:61px auto 0px;
+}
+
+.section-strategy .strategy .block-left .p1{
+text-align: center;
+margin: 0 auto;
+} 
+
+.section-strategy .strategy .block-left h2{
+width: 680px;
+font-size: 40px;
+line-height:45px;
+text-align: center;  
+margin: 15px auto 0px;
+}
+
+.section-strategy .strategy .block-left .p2{
+text-align: center;
+margin: 24px auto 0px;
+}
+
+.section-strategy .strategy .block-left .p3{
+text-align: center;
+margin: 24px auto 0px;
+}
+
+
+
+
+.section-strategy .strategy .block-left button{
+margin: 34px 0px 0px 280px;
+}
+
+
+
+
+
+/* Block Right */
+.section-strategy .strategy .block-right{
+width: 680px;
+margin: 60px auto 0px;  
+}
+
+.section-strategy .strategy .block-right .strategy-cart{
+width: 550px;
+margin: 20px auto 0px;
+}
+
+
+
+
+
+.section-strategy .strategy .block-right .cart-text h5{
+width: 160px;
+}
+
+/*==========================================================     Section Strategy Design End   =====================================================================*/ 
+
+
+
+
+
+
+
+
+/*==========================================================     Section Blog-Solution Design End   =====================================================================*/
+.section-blog-solution .blog-solution{
+width: 695px;
+display: flex;
+flex-direction: column;
+justify-content: center;
+row-gap: 30px;
+margin: 80px auto 0px;
+}
+
+
+.section-blog-solution .blog-solution .block-left{
+  width: 550px;
+  height: 400px;
+  margin: 0 auto;
+}
+
+
+
+
+.section-blog-solution .blog-solution .block-right{
+width: 566.66px; 
+margin: 58px auto 0px;
+}
+
+.section-blog-solution .blog-solution .block-right h6{
+text-align: center;
+margin: 0 auto;
+}
+
+
+.section-blog-solution .blog-solution .block-right h2{
+width: 560px;
+font-size: 40px;
+line-height: 45px;
+text-align: center; 
+margin-top: 14px;
+}
+
+
+.section-blog-solution .blog-solution .block-right p{
+width: 575px;
+text-align: center;
+color: #60697B;
+margin: 24px auto 0px;
+}
+
+
+.section-blog-solution .blog-solution .block-right .arrow-area{
+margin-top: 40px;
+margin-bottom: 80px;
+}
+
+
+.section-blog-solution .blog-solution .block-right .arrow-area .arrow-text{
+display: flex;
+justify-content: center;
+column-gap: 18px;
+margin: 25px 0px 0px 0px;
+}
+
+
+
+
+
+.section-blog-solution .blog-solution .block-right .arrow-area .arrow-text .colour-blue{
+text-align: center;
+}
+
+
+.section-blog-solution .blog-solution .block-right .arrow-area .arrow-text h6{
+text-align: center;
+margin: 0;
+}
+
+/*==========================================================     Section Blog-Solution Design End   =====================================================================*/ 
+
+
+
+
+
+
+
+/*==========================================================     Section Wave Design End   =====================================================================*/
+.section-wave-two .wave-two{
+width: 768px;
+height: 82px;
+margin: 0 auto;  
+}
+
+.section-wave-two .wave-two img{
+width: 768px;
+height: 134.72px;
+margin: 0 auto;
+margin-top: -46px;
+position: relative;
+}
+/*==========================================================     Section Wave Design End   =====================================================================*/ 
+
+
+
+
+
+
+
+
+/*==========================================================     Section Company Facts Start   =====================================================================*/
+.section-company-facts .company-facts-box{
+width: 768px;
+background-color: #FFFFFF;
+margin: 0 auto;
+}
+
+
+.section-company-facts .company-facts-box .company-facts{
+width: 768px;
+margin: 0 auto;
+}
+
+
+/* Title Statistics */
+
+
+.section-company-facts .company-facts-box .company-facts .title-statistics{
+display: flex;
+flex-direction: column;
+}
+
+.section-company-facts .company-facts-box .company-facts .title-statistics .title{
+width: 600px;
+
+margin: 50px auto 0px;
+}
+
+
+.section-company-facts .company-facts-box .company-facts .title h6{
+width: 133.86px;
+text-align: center;
+margin: 0 auto;
+}
+
+
+.section-company-facts .company-facts-box .company-facts .title h2{
+width: 600px;
+font-size: 38px;
+text-align: center;
+margin: 0 auto;
+}
+
+.section-company-facts .company-facts-box .company-facts .title p{
+width: 400px;
+text-align: center;
+margin: 10px auto 0px;
+}
+
+.section-company-facts .company-facts-box .company-facts .title-statistics .statistics-part{
+width: 288.88px;
+margin: 0 auto;
+}
+
+.section-company-facts .company-facts-box .company-facts .title-statistics .statistics-part img{
+width: 60px;
+height: 60px;
+margin: 50px 0px 0px 120px;
+}
+
+
+.section-company-facts .company-facts-box .company-facts .title-statistics .statistics-part p{
+width: 156px;
+}
+
+
+
+/* Employee */
+
+.section-company-facts .company-facts-box .company-facts .employee{
+width: 695px;
+display: flex;
+justify-content: center;
+flex-wrap: wrap;
+column-gap: 20px;
+row-gap: 20px;
+margin: 60px auto 0px;
+}
+
+.section-company-facts .company-facts-box .company-facts .employee .names{
+width: 300px;
+
+color: #FFFFFF;
+box-shadow: 0px 5px 35px 0px #1E222812;
+}
+
+
+.section-company-facts .company-facts-box .company-facts .employee .names .names-text img{
+width: 100px;
+height: 100px;
+margin: 40px 0px 0px 40px;
+}
+
+
+.section-company-facts .company-facts-box .company-facts .employee .names .names-text h5{
+width: 160px;
+}
+
+
+/*==========================================================     Section Company Facts End   =====================================================================*/ 
+
+
+
+
+
+
+/*==========================================================     Section Latest Project Start   =====================================================================*/ 
+
+.section-projects .project-box{
+width: 768px;
+background-color: #FFFFFF;  
+margin: 0 auto;
+}
+
+
+.section-projects .project-box .latest-projects{
+width: 768px;
+
+margin: 80px auto 0px;
+background-color: #FFFFFF;
+}
+
+
+.section-projects .project-box .latest-projects .latest-projects-titles .title{
+width: 141.86px;
+padding-top: 0px;
+}
+
+.section-projects .project-box .latest-projects .latest-projects-titles .sub-title{
+width: 690px;
+font-size: 34px;
+line-height: 45px;
+text-align: center;
+margin: 36px auto 0px;
+}
+
+
+
+.section-projects .project-box .latest-projects .latest-projects-list{
+width: 695px;
+margin: 50px auto 0px;
+display: flex;
+flex-direction: column;
+row-gap: 170px;
+justify-content: space-between;
+
+
+}
+
+.section-projects .project-box .latest-projects .latest-projects-list .latest-projects-blog{
+width: 530px;
+height: 310px;
+margin: 0 auto;
+}
+
+.section-projects .project-box .latest-projects .latest-projects-list .latest-projects-blog img{
+width: 530px;
+height: 310px;
+}
+
+
+
+
+.section-projects .project-box .latest-projects .latest-projects-list .latest-projects-blog h5{
+width: 320px;
+}
+
+
+
+
+
+/* page change */
+
+.section-projects .project-box .latest-projects .page-change-button {
+
+display: none;
+
+}
+
+
+/*==========================================================     Section Latest project End   =====================================================================*/ 
+
+
+
+
+
+
+
+/*==========================================================     Section Wave Design End   =====================================================================*/
+.section-wave-three .wave-three{
+  width: 768px;
+  height: 82px;
+  margin: 40px auto 0px;  
+  }
+  
+  .section-wave-three .wave-three img{
+  width: 768px;
+  margin: 0 auto;
+  margin-top: 0px;
+  position: relative;
+  }
+  /*==========================================================     Section Wave Design End   =====================================================================*/ 
+
+
+
+
+
+
+
+
+
+
+
+
+/*==========================================================     Section Customers Start   =====================================================================*/ 
+.section-customers .customer-area{
+width: 768px;
+
+margin: 50px auto 0px;
+background: linear-gradient(180deg, #F0F8FE 0%, rgba(255, 255, 255, 0) 100%);
+}
+
+.section-customers .customer-area .customer{
+width: 768px;
+
+margin: 0 auto;
+background: linear-gradient(180deg, #F0F8FE 0%, rgba(255, 255, 255, 0) 100%);
+}
+
+
+
+.section-customers .customer-area .customer .title p{
+
+padding: 0;
+}
+
+.section-customers .customer-area .customer .title h2{
+width: 696px;
+
+font-size: 38px;
+font-weight: 600;
+line-height: 45px;
+text-align: center;
+margin: 15px auto 0px;
+}
+
+
+
+.section-customers .customer-area .customer .customer-cart-box{
+width: 768px;
+display: flex;
+justify-content: center;
+margin: 55px auto 0px;
+}
+
+
+
+.section-customers .customer-area .customer .customer-cart-box .customer-cart .names .name-text h5{
+width: 200px; 
+}
+
+
+/*==========================================================     Section Customers End   =====================================================================*/ 
+
+
+
+
+
+
+
+/*==========================================================     Section FAQ Start   =====================================================================*/ 
+.section-faq .faq-area{
+width: 768px;
+background-color: #FEFEFE;
+margin: 0 auto;
+}
+
+.section-faq .faq-area .faq{
+width: 768px;
+height: 800px;
+margin: 0 auto;
+display: flex;
+flex-direction: column;
+justify-content: space-between;
+column-gap: 55px;
+padding-top: 60px;
+}
+
+
+.section-faq .faq-area .faq .block-left{
+width: 768px;
+
+}
+
+
+.section-faq .faq-area .faq .block-left .faqq{
+text-align: center;
+margin: 0 auto;
+}
+
+.section-faq .faq-area .faq .block-left h2{
+width: 695px;
+font-size: 34px;
+line-height: 38px;
+text-align: center;
+margin: 20px auto 0px;
+}
+
+
+.section-faq .faq-area .faq .block-left .faqq-2{
+line-height: 24px;
+text-align: center;
+margin: 24px auto 0px;
+}
+
+
+/* button    */
+.section-faq .faq-area .faq .block-left button{
+margin: 34px 0px 0px 340px;
+}
+ 
+
+/* block Right */
+
+.section-faq .faq-area .faq .block-right{
+width: 680px;
+margin: 0 auto;
+}
+
+.section-faq .faq-area .faq .block-right .arrow-cart{
+width: 465px;
+margin: 25px auto 0px;
+}
+
+
+/*==========================================================     Section FAQ End   =====================================================================*/ 
+
+/*==========================================================    Main Section End    =====================================================================*/
+
+
+
+
+
+
+
+
+
+
+
+
+/*==========================================================    Footer Section Start    =====================================================================*/
+
+.section-footer-project .footer-area{
+  width: 768px;
+  margin: 100px auto 0px;
+}
+
+
+.section-footer-project .footer-area .footer-text-button{
+  width: 700px;
+
+  display: flex;
+  flex-direction: column;
+}
+
+.section-footer-project .footer-area .footer-text-button .footer-text{
+  margin: 0px auto;
+  font-size: 32px;
+  font-weight: 400;
+  line-height: 48px;
+  text-align: center;
+}
+
+
+
+
+
+/* button    */
+.section-footer-project .footer-area .footer-text-button button{
+ margin: 34px auto 0px;
+}
+  
+
+/* Footer */
+.section-footer-project .footer-area .footer-box{
+  width: 700px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  row-gap: 80px;
+  align-items: center;
+}
+
+
+.section-footer-project .footer-area .footer-box .logo{
+  width: 134px;
+  height: 26px;
+  margin-bottom: 150px;
+}
+
+
+.section-footer-project .footer-area .footer-box .licence {
+  text-align: center;
+}
+
+
+
+.section-footer-project .footer-area .footer-box .footer-nav-title{
+
+  text-align: center;
+  margin: auto;
+}
+
+.section-footer-project .footer-area .footer-box .get-touch .adress{
+
+  text-align: center;
+
+}
+
+.section-footer-project .footer-area .footer-box .get-touch .email-id{
+
+  text-align: center;
+
+}
+
+
+
+
+
+
+.section-footer-project .footer-area .footer-box .manue-link li {
+  text-align: center;
+}
+
+
+
+.section-footer-project .footer-area .footer-box .news{
+ width: 350px;
+ margin: 0 auto;
+  text-align: center;
+}
+
+
+.section-footer-project .footer-area .footer-box .news p{
+  text-align: center;
+  margin: 19px auto 0px;
+}
+
+/*==========================================================    Footer Section End    =====================================================================*/
+  
+  
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*===============================================================   Responsive For Mobile ============================================================*/
+/*===============================================================   Responsive For Mobile ============================================================*/
+
+
+@media only screen and (max-width: 575px){
+
+
+
+
+body{
+  width: 575px;
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+  color: #191720;
+  margin: 0 auto;
+}
+
+
+
+
+
+
+/*===============================================================   Header Design     ================================================================*/
+header {
+  max-width: 500px;
+  margin: 62px auto 0;
+}
+
+
+
+header .nevigation{
+  position: relative;
+  flex-wrap: wrap;
+  
+}
+
+.hamburger{
+  display: flex;
+  flex-wrap: wrap;
+  height: 45px;
+  width: 45px;
+  margin-top: 5px;
+  margin-left: 150px;
+}
+
+
+header .nevigation .nav-links{
+  column-gap: 52px;
+  padding: 10px 35px 0px 35px;
+}
+
+
+header .nevigation .nav-links  li{
+  margin: 20px 0px;
+}
+
+
+
+
+
+
+header .nevigation .nav-links li button {  
+  width: 104.86px;
+  height: 48.89px;
+  font-size: 17px;
+  font-weight: 500;
+  line-height: 28px;
+  text-align: center;
+  border: none;
+  border-radius: 100px;
+  color: #FFFFFF;
+  background-color: #5EB9F0;
+  margin: 0;
+}
+
+header .nevigation .nav-links li button:hover {
+  transform: scale(1.1);
+}
+    
+    
+/*==========================================================     Design End   =====================================================================*/
+   
+
+
+
+
+
+
+
+
+
+
+
+/*==========================================================    Main Section Start    =====================================================================*/
+/*==========================================================    Main Section Start    =====================================================================*/
+
+
+/*==========================================================     Section Hero Design Start   =====================================================================*/
+
+.section-hero-blog .hero-area{
+  width: 575px;
+
+  background-color: #FEFEFE;
+  margin: 0 auto;
+}
+
+
+/* Inner */
+.section-hero-blog .hero-area .inner-content {
+  width: 575px;
+
+  margin: 0 auto;
+  display: flex;
+  column-gap: 106px;
+  background-color: #FEFEFE;
+
+}
+
+
+/*Block-Left*/ 
+.section-hero-blog .hero-area .inner-content .block-left h1{
+  width: 500px;
+  font-size: 36px;
+  font-weight: 600;
+  line-height: 45px;
+  color:  #343F52;
+  margin: 75px auto 0px;
+}
+
+
+
+
+.section-hero-blog .hero-area .inner-content .block-left p{
+  width: 470px;
+  font-size: 22px;
+  line-height: 25px;
+  text-align: center;
+  margin: 27px auto 0px;
+}
+
+.section-hero-blog .hero-area .inner-content .block-left button{
+  margin: 39px 0px 0px 215px;
+}
+
+
+
+
+
+/*Block-Right*/
+.section-hero-blog .hero-area .block-right {
+  width: 500px;
+  height: 405px;
+  padding:0px;
+  margin: 0 auto;
+}
+
+.section-hero-blog .hero-area .block-right img{
+  width: 500px;
+  height: 405px;
+  padding:0px;
+  margin: 30px auto;  
+}
+
+
+
+/* Outer */
+.section-hero-blog .hero-area .outer-content{
+  width: 500px;
+ 
+  margin: 94px auto 0px;
+}
+
+
+.section-hero-blog .hero-area .outer-content .outer-text p{
+width: 400px;
+font-size: 20px;
+}
+
+
+.section-hero-blog .hero-area .outer-content .outer-img{
+width: 500px;
+display: flex;
+justify-content: space-around;
+row-gap: 30px;
+margin: 50px auto 0px;
+}
+
+
+/*==========================================================     Section Hero Design End   =====================================================================*/ 
+
+
+
+
+
+
+
+
+/*==========================================================     Section Wave Design End   =====================================================================*/
+.section-wave .wave{
+width: 575px;
+height: 82px;
+margin: 0 auto;  
+}
+
+.section-wave .wave img{
+width: 575px;
+height: 134.72px;
+margin: 0 auto;
+margin-top: 50px;
+position: relative;
+}
+/*==========================================================     Section Wave Design End   =====================================================================*/ 
+
+
+
+
+
+
+
+
+/*==========================================================     Section service Design Start   =====================================================================*/ 
+.section-service .service-area{
+  width: 575px;
+  
+  margin: 100px auto;
+  background: linear-gradient(180deg, #F0F8FE 0%, rgba(255, 255, 255, 0) 100%);
+  }
+  
+  
+  .section-service .service-area .service-box{
+  width: 500px;
+  
+  margin: 0 auto;
+  background: linear-gradient(180deg, #F0F8FE 0%, rgba(255, 255, 255, 0) 100%);
+  }
+  
+  
+  /* Title*/
+
+  
+  .section-service .service-box .service-title h2{
+  width: 500px;
+  font-size: 30px;
+  line-height: 32px;
+  }
+  
+  
+  
+  
+  /* Service- cart */
+  .section-service .service-area .service-box .service-cart{
+  width: 500px;
+  display: flex;
+  flex-direction: column;
+  row-gap: 80px;
+  }
+  
+  .section-service .service-area .service-box .service-cart .img-text-box .img-text-area{
+    width: 500px;
+  }
+  
+  .section-service .service-area .service-box .service-cart .img-text-box .img-text-area img{
+  width: 336.66px;
+  margin: 0px 0px 0px 70px;
+  }
+  
+ 
+  /*==========================================================     Section service Design End   =====================================================================*/ 
+  
+  
+  
+  
+  
+  
+  
+  
+  /*==========================================================     Section Strategy Design End   =====================================================================*/
+  .section-strategy .strategy{
+  width: 500px;
+  display: flex;
+  justify-content: unset;
+  flex-wrap: wrap;
+  column-gap: 20px;
+  margin: 0 auto;
+  }
+  
+  /* Block Left */
+  .section-strategy .strategy .block-left{
+  width: 500px;
+  margin:61px auto 0px;
+  }
+  
+  .section-strategy .strategy .block-left .p1{
+  text-align: center;
+  margin: 0 auto;
+  } 
+  
+  .section-strategy .strategy .block-left h2{
+  width: 500px;
+  font-size: 36px;
+  line-height:40px;
+
+  }
+  
+  .section-strategy .strategy .block-left .p2{
+    width: 500px;
+  }
+  
+  .section-strategy .strategy .block-left .p3{
+    width: 500px;
+  }
+  
+  
+  
+  
+  .section-strategy .strategy .block-left button{
+  margin: 34px 0px 0px 180px;
+  }
+  
+  
+  
+  
+  
+  /* Block Right */
+  .section-strategy .strategy .block-right{
+  width: 500px;
+  margin: 60px auto 0px;  
+  }
+  
+  .section-strategy .strategy .block-right .strategy-cart{
+  width: 500px;
+  margin: 20px auto 0px;
+  border-radius: 10px;
+  }
+  
+  
+
+  
+  /*==========================================================     Section Strategy Design End   =====================================================================*/ 
+  
+  
+  
+  
+  
+  
+  
+  
+  /*==========================================================     Section Blog-Solution Design End   =====================================================================*/
+  .section-blog-solution .blog-solution{
+  width: 575px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  row-gap: 30px;
+  margin: 80px auto 0px;
+  }
+  
+  
+  .section-blog-solution .blog-solution .block-left{
+    width: 500px;
+    height: 400px;
+    margin: 0 auto;
+  }
+  
+  
+  .section-blog-solution .blog-solution .block-left img{
+    width: 500px;
+    height: 400px;
+  }
+
+
+  
+  
+  .section-blog-solution .blog-solution .block-right{
+  width: 566.66px; 
+  margin: 50px auto 0px;
+  }
+  
+  .section-blog-solution .blog-solution .block-right h6{
+  text-align: center;
+  margin: 0 auto;
+  }
+  
+  
+  .section-blog-solution .blog-solution .block-right h2{
+  width: 500px;
+  font-size: 36px;
+  margin: 14px auto 0px;
+  }
+  
+
+
+  
+  .section-blog-solution .blog-solution .block-right p{
+  width: 500px;
+  margin: 24px auto 0px;
+  }
+  
+  
+  .section-blog-solution .blog-solution .block-right .arrow-area{
+    width: 500px;
+    margin: 40px auto 80px;
+  }
+  
+  
+  
+  /*==========================================================     Section Blog-Solution Design End   =====================================================================*/ 
+  
+  
+  
+  
+  
+  
+  
+  /*==========================================================     Section Wave Design End   =====================================================================*/
+  .section-wave-two .wave-two{
+  width: 575px;
+  height: 82px;
+  margin: 0 auto;  
+  }
+  
+  .section-wave-two .wave-two img{
+  width: 575px;
+  height: 134.72px;
+  margin: 0 auto;
+  margin-top: -46px;
+  position: relative;
+  }
+  /*==========================================================     Section Wave Design End   =====================================================================*/ 
+  
+  
+  
+  
+  
+  
+  
+  
+  /*==========================================================     Section Company Facts Start   =====================================================================*/
+  .section-company-facts .company-facts-box{
+  width: 575px;
+  background-color: #FFFFFF;
+  margin: 0 auto;
+  }
+  
+  
+  .section-company-facts .company-facts-box .company-facts{
+  width: 575px;
+  margin: 0 auto;
+  }
+  
+  
+  /* Title Statistics */
+  
+  
+  .section-company-facts .company-facts-box .company-facts .title-statistics{
+  display: flex;
+  flex-direction: column;
+  }
+  
+  .section-company-facts .company-facts-box .company-facts .title-statistics .title{
+  width: 500px;
+  margin: 50px auto 0px;
+  }
+  
+  
+  
+  .section-company-facts .company-facts-box .company-facts .title h2{
+  width: 500px;
+  font-size: 36px;
+  text-align: center;
+  margin: 0 auto;
+  }
+  
+  .section-company-facts .company-facts-box .company-facts .title p{
+   line-height: 24px; 
+  }
+  
+  
+  /* Employee */
+  
+  .section-company-facts .company-facts-box .company-facts .employee{
+  width: 500px;
+  }
+  
+  .section-company-facts .company-facts-box .company-facts .employee .names{
+  width: 240px;
+  }
+  
+
+  /*==========================================================     Section Company Facts End   =====================================================================*/ 
+  
+  
+  
+  
+  
+  
+  /*==========================================================     Section Latest Project Start   =====================================================================*/ 
+  
+  .section-projects .project-box{
+  width: 575px;
+  background-color: #FFFFFF;  
+  margin: 0 auto;
+  }
+  
+  
+  .section-projects .project-box .latest-projects{
+  width: 500px;
+  
+  margin: 80px auto 0px;
+  background-color: #FFFFFF;
+  }
+  
+  
+  .section-projects .project-box .latest-projects .latest-projects-titles .title{
+  width: 141.86px;
+  padding-top: 0px;
+  }
+  
+  .section-projects .project-box .latest-projects .latest-projects-titles .sub-title{
+  width: 500px;
+  font-size: 32px;
+  line-height: 34px;
+  }
+  
+  
+  
+  .section-projects .project-box .latest-projects .latest-projects-list{
+  width: 500px;
+  }
+  
+  .section-projects .project-box .latest-projects .latest-projects-list .latest-projects-blog{
+  width: 500px;
+  }
+  
+  .section-projects .project-box .latest-projects .latest-projects-list .latest-projects-blog img{
+  width: 500px;
+  }
+  
+  
+  
+  
+  .section-projects .project-box .latest-projects .latest-projects-list .latest-projects-blog h5{
+  width: 320px;
+  text-align: center;
+  margin: 32px auto 0px;
+  }
+  
+  .section-projects .project-box .latest-projects .latest-projects-list .latest-projects-blog p{
+    width: 122px;
+    text-align: center;
+    margin: 12px auto 0px;
+  }
+  
+  
+  
+  /* page change */
+  
+  .section-projects .project-box .latest-projects .page-change-button {
+  
+  display: flex;
+  
+  }
+  
+  
+  /*==========================================================     Section Latest project End   =====================================================================*/ 
+  
+  
+  
+  
+  
+  
+  
+  /*==========================================================     Section Wave Design End   =====================================================================*/
+  .section-wave-three .wave-three{
+    width: 575px;
+    height: 82px;
+    margin: 40px auto 0px;  
+    }
+    
+    .section-wave-three .wave-three img{
+    width: 575px;
+    margin: 0 auto;
+    margin-top: 0px;
+    position: relative;
+    }
+    /*==========================================================     Section Wave Design End   =====================================================================*/ 
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  /*==========================================================     Section Customers Start   =====================================================================*/ 
+  .section-customers .customer-area{
+  width: 575px;
+  }
+  
+  .section-customers .customer-area .customer{
+  width: 575px;
+  }
+  
+  
+  .section-customers .customer-area .customer .title h2{
+  width: 500px;
+  font-size: 32px;
+  line-height: 36px;
+  }
+  
+  
+  
+  .section-customers .customer-area .customer .customer-cart-box{
+  width: 500px;
+  }
+  
+  
+  
+  /*==========================================================     Section Customers End   =====================================================================*/ 
+  
+  
+  
+  
+  
+  
+  
+  /*==========================================================     Section FAQ Start   =====================================================================*/ 
+  .section-faq .faq-area{
+  width: 575px;
+  }
+  
+  .section-faq .faq-area .faq{
+  width: 500px;
+  height: 800px;
+  }
+  
+  
+  .section-faq .faq-area .faq .block-left{
+  width: 500px;
+  
+  }
+  
+  
+  .section-faq .faq-area .faq .block-left .faqq{
+  text-align: center;
+  margin: 0 auto;
+  }
+  
+  .section-faq .faq-area .faq .block-left h2{
+  width: 500px;
+  font-size: 32px;
+  line-height: 36px;
+  }
+  
+  
+  .section-faq .faq-area .faq .block-left .faqq-2{
+  width: 500px;
+  line-height: 24px;
+  text-align: center;
+  margin: 24px auto 0px;
+  }
+  
+  
+  /* button    */
+  .section-faq .faq-area .faq .block-left button{
+  margin: 34px 0px 0px 205px;
+  }
+   
+  
+  /* block Right */
+  
+  .section-faq .faq-area .faq .block-right{
+  width: 500px;
+  margin: 0 auto;
+  }
+  
+
+
+  
+  
+  /*==========================================================     Section FAQ End   =====================================================================*/ 
+  
+  
+  
+/*==========================================================    Main Section End    =====================================================================*/
+/*==========================================================    Main Section End    =====================================================================*/
+
+
+
+
+
+
+
+
+
+
+/*==========================================================    Footer Section Start    =====================================================================*/
+
+.section-footer-project .footer-area{
+  width: 575px;
+}
+
+
+.section-footer-project .footer-area .footer-text-button{
+  width: 575px;
+
+  display: flex;
+  flex-direction: column;
+}
+
+.section-footer-project .footer-area .footer-text-button .footer-text{
+  width: 550px;
+  font-size: 30px;
+  line-height: 38px;
+}
+
+
+
+
+/* button    */
+.section-footer-project .footer-area .footer-text-button button{
+ font-weight: 500;
+}
+  
+
+
+/* Footer */
+
+.section-footer-project .footer-area .footer-box{
+  width: 575px;
+}
+
+
+
+/*==========================================================    Footer Section End    =====================================================================*/
+  
+
+
+
+
+}    
+
+
+
+
+
+
+
+
